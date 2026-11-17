@@ -38,7 +38,7 @@
         <a href="#proyek">Proyek</a>
         <a href="#perjalanan">Perjalanan</a>
         <a href="#keahlian">Keahlian</a>
-        <a class="nav-cta" href="#kontak">Kontak</a>
+        <a class="nav-cta" href="#kolaborasi">Kolaborasi</a>
       </nav>
     </div>
   </header>
@@ -49,12 +49,12 @@
       <div class="hero-text">
         <p class="eyebrow"><span class="eyebrow-line"></span><span id="role" aria-live="off">GEOSPATIAL DEVELOPER</span><span class="caret" aria-hidden="true"></span></p>
         <h1 id="hero-title">Haytsam Suchandra Wiranegara</h1>
-        <p class="lede">Mahasiswa Sains Informasi Geografi yang membangun aplikasi dan website untuk membaca bumi dari data.</p>
+        <p class="lede" id="hero-lede">Mahasiswa Sains Informasi Geografi yang membangun aplikasi dan website untuk membaca bumi dari data.</p>
         <div class="cta-row">
           <a class="btn btn-primary" href="#proyek">Lihat proyek
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8"/></svg>
           </a>
-          <a class="btn btn-ghost" href="#kontak">Hubungi saya</a>
+          <a class="btn btn-ghost" href="#kolaborasi">Ajak kolaborasi</a>
         </div>
         <dl class="hud" id="hud"></dl>
       </div>
@@ -116,10 +116,10 @@
     </section>
 
     <!-- ===== KONTAK ===== -->
-    <section class="section" id="kontak" aria-labelledby="kontak-title">
+    <section class="section" id="kolaborasi" aria-labelledby="kontak-title">
       <div class="wrap">
         <header class="section-head reveal">
-          <p class="eyebrow"><span class="eyebrow-line"></span>KONTAK</p>
+          <p class="eyebrow"><span class="eyebrow-line"></span>KOLABORASI</p>
           <h2 class="section-title" id="kontak-title">Mari berkolaborasi</h2>
         </header>
         <div class="contact-grid">
@@ -142,11 +142,19 @@
               <p class="error" id="e-email" aria-live="polite"></p>
             </div>
             <div class="field">
+              <label for="f-jenis">Jenis kolaborasi</label>
+              <select id="f-jenis" name="jenis"></select>
+            </div>
+            <div class="hp" aria-hidden="true">
+              <label for="f-web">Jangan diisi</label>
+              <input id="f-web" name="_gotcha" type="text" tabindex="-1" autocomplete="off">
+            </div>
+            <div class="field">
               <label for="f-pesan">Pesan</label>
               <textarea id="f-pesan" name="pesan" rows="5" required></textarea>
               <p class="error" id="e-pesan" aria-live="polite"></p>
             </div>
-            <button class="btn btn-primary" type="submit">Kirim lewat email</button>
+            <button class="btn btn-primary" type="submit" id="form-submit">Kirim pesan</button>
             <p class="status" id="form-status" role="status" aria-live="polite"></p>
           </form>
         </div>
@@ -169,6 +177,12 @@
     <div id="dlg-body"></div>
   </dialog>
 
+  <script>
+    /* Memuat content.js dengan penanda waktu (berganti tiap menit) supaya
+       perubahan isi tidak tertahan di cache browser. */
+    document.write('<script src="content.js?v=' + Math.floor(Date.now() / 60000) + '"><\/script>');
+  </script>
+  <script src="effects.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

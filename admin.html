@@ -61,7 +61,11 @@
     </div>
   </div>
 
-  <script src="content.js"></script>
+  <script>
+    /* Memuat content.js dengan penanda waktu (berganti tiap menit) supaya
+       perubahan isi tidak tertahan di cache browser. */
+    document.write('<script src="content.js?v=' + Math.floor(Date.now() / 60000) + '"><\/script>');
+  </script>
   <script src="effects.js"></script>
   <script src="admin.js"></script>
 </body>

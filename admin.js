@@ -80,8 +80,12 @@
         input.focus();
         return;
       }
-      if (!PUB || !PUB.auth) {
-        err.textContent = 'Data kata sandi tidak ditemukan di content.js.';
+      if (!PUB) {
+        err.textContent = 'File content.js tidak terbaca. Pastikan file bernama persis content.js ada di repositori, sejajar dengan admin.html.';
+        return;
+      }
+      if (!PUB.auth) {
+        err.textContent = 'File content.js terbaca, tetapi blok "auth" (kata sandi) tidak ada di dalamnya.';
         return;
       }
 
