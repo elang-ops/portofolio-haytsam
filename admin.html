@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0A0722">
+  <title>Admin | Portofolio Haytsam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body class="admin">
+  <canvas id="stars" aria-hidden="true"></canvas>
+
+  <!-- ===== Layar kata sandi ===== -->
+  <main id="login-view" class="login-wrap" aria-labelledby="login-title">
+    <form class="login-card" id="login-form" novalidate>
+      <a class="brand" href="index.html" aria-label="Ke halaman portofolio">
+        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" aria-hidden="true">
+          <circle cx="15" cy="15" r="6" stroke="#38E8FF" stroke-width="1.5"/>
+          <ellipse cx="15" cy="15" rx="13" ry="5" transform="rotate(-28 15 15)" stroke="#A78BFA" stroke-width="1.2"/>
+          <circle cx="24" cy="9" r="2" fill="#FFC857"/>
+        </svg>
+        <span>HSW</span>
+      </a>
+      <h1 id="login-title">Halaman pribadi</h1>
+      <p>Masukkan kata sandi untuk mengedit isi portofolio.</p>
+      <div class="field">
+        <label for="pw">Kata sandi</label>
+        <input id="pw" name="pw" type="password" autocomplete="current-password" required>
+        <p class="error" id="login-error" role="alert"></p>
+      </div>
+      <button class="btn btn-primary" type="submit" id="login-btn">Masuk</button>
+      <a class="back-link" href="index.html">Kembali ke portofolio</a>
+    </form>
+  </main>
+
+  <!-- ===== Editor ===== -->
+  <div id="editor-view" hidden>
+    <header class="ed-bar">
+      <div class="wrap ed-bar-in">
+        <div class="ed-title">
+          <h1>Editor portofolio</h1>
+          <span class="ed-state" id="ed-state" role="status" aria-live="polite"></span>
+        </div>
+        <div class="ed-actions">
+          <a class="btn btn-ghost btn-sm" href="index.html?pratinjau=1" target="_blank" rel="noopener">Pratinjau</a>
+          <button class="btn btn-ghost btn-sm" type="button" id="btn-copy">Salin content.js</button>
+          <button class="btn btn-primary btn-sm" type="button" id="btn-publish">Terbitkan</button>
+          <button class="btn btn-ghost btn-sm" type="button" id="btn-download">Unduh content.js</button>
+          <button class="btn btn-ghost btn-sm" type="button" id="btn-logout">Keluar</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="wrap ed-layout">
+      <nav class="ed-tabs" id="ed-tabs" role="tablist" aria-label="Bagian yang diedit"></nav>
+      <section class="ed-panel" id="ed-panel" role="tabpanel" tabindex="-1"></section>
+    </div>
+  </div>
+
+  <script>
+    /* Memuat content.js dengan penanda waktu (berganti tiap menit) supaya
+       perubahan isi tidak tertahan di cache browser. */
+    document.write('<script src="content.js?v=' + Math.floor(Date.now() / 60000) + '"><\/script>');
+  </script>
+  <script src="effects.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>
