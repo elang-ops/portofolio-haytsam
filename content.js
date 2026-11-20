@@ -13,7 +13,7 @@ window.PORTFOLIO_CONTENT = {
     "roles": [
       "Geospatial Developer",
       "Web & App Builder",
-      "Mahasiswa Sains Informasi Geografi"
+      "Geographic Information Science student"
     ],
     "lede": "Mahasiswa Sains Informasi Geografi yang membangun aplikasi dan website untuk membaca bumi dari data.",
     "focus": "Web · Aplikasi · Peta"
