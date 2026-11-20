@@ -133,7 +133,7 @@ window.PORTFOLIO_CONTENT = {
     ]
   },
   "skills": {
-    "title": "Alat yang saya pakai",
+    "title": "Alat yang saya paka",
     "groups": [
       {
         "group": "Pengembangan web",
@@ -189,6 +189,11 @@ window.PORTFOLIO_CONTENT = {
         "label": "LinkedIn",
         "text": "linkedin.com/in/usernamekamu",
         "href": "https://linkedin.com/in/usernamekamu"
+      },
+      {
+        "label": "Instagram",
+        "text": "hytsm_wira",
+        "href": "https://www.instagram.com/hytsm_wira?gwpx=OWg0dWNmemMzbGcx"
       }
     ]
   }
