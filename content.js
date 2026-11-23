@@ -77,14 +77,14 @@ window.PORTFOLIO_CONTENT = {
         "id": "p3",
         "title": "Aplikasi Contoh",
         "category": "Aplikasi",
-        "year": "20XX",
-        "summary": "CONTOH: aplikasi yang kamu rancang atau kembangkan.",
-        "description": "CONTOH: ganti dengan penjelasan aplikasi, siapa penggunanya, dan fitur utamanya.",
+        "year": "2026",
+        "summary": "Sebuah aplikasi yang dapat membantu mahasiswa dalam mencicil tugas dengan terjadwal",
+        "description": "Aplikasi  yang dibangun dengan index.html worker.js wrongler.TOML",
         "stack": [
           "JavaScript",
           "API"
         ],
-        "link": "",
+        "link": "https://elang-ops.github.io/cicil-tugas/",
         "repo": ""
       },
       {
@@ -119,10 +119,10 @@ window.PORTFOLIO_CONTENT = {
         "text": "CONTOH: tuliskan peran dan hasilnya."
       },
       {
-        "period": "20XX",
+        "period": "2026",
         "title": "Membuat proyek web pertama",
         "place": "Belajar mandiri",
-        "text": "CONTOH: tuliskan hal yang kamu pelajari dari proyek itu."
+        "text": "Saya mempelajari index.html, content.js, dan masih banyak lainnya secara otodidak"
       },
       {
         "period": "",
