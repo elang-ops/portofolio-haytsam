@@ -75,7 +75,7 @@ window.PORTFOLIO_CONTENT = {
       },
       {
         "id": "p3",
-        "title": "Aplikasi Contoh",
+        "title": "Aplikasi Cicil Tugas",
         "category": "Aplikasi",
         "year": "2026",
         "summary": "Sebuah aplikasi yang dapat membantu mahasiswa dalam mencicil tugas dengan terjadwal",
