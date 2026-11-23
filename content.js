@@ -44,7 +44,7 @@ window.PORTFOLIO_CONTENT = {
     "items": [
       {
         "id": "p1",
-        "title": "Website Portofolio",
+        "title": "Portofolio Haytsam Suchandra ",
         "category": "Web",
         "year": "2026",
         "summary": "Situs portofolio pribadi bertema satelit geospasial.",
@@ -55,7 +55,7 @@ window.PORTFOLIO_CONTENT = {
           "JavaScript",
           "Canvas"
         ],
-        "link": "",
+        "link": "https://elang-ops.github.io/portofolio-haytsam/",
         "repo": ""
       },
       {
