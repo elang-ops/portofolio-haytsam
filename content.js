@@ -59,21 +59,6 @@ window.PORTFOLIO_CONTENT = {
         "repo": ""
       },
       {
-        "id": "p2",
-        "title": "WebGIS Contoh",
-        "category": "Peta",
-        "year": "20XX",
-        "summary": "CONTOH: peta interaktif untuk menampilkan data spasial.",
-        "description": "CONTOH: ganti deskripsi ini dengan penjelasan proyek peta atau WebGIS yang pernah kamu buat, masalah yang dipecahkan, dan hasilnya.",
-        "stack": [
-          "Leaflet",
-          "GeoJSON",
-          "JavaScript"
-        ],
-        "link": "",
-        "repo": ""
-      },
-      {
         "id": "p3",
         "title": "Web Cicil Tugas",
         "category": "Web Prototipe",
@@ -99,6 +84,21 @@ window.PORTFOLIO_CONTENT = {
           "Indeks.html"
         ],
         "link": "https://claude.ai/artifact/MGBxPAccsGz7NYeJEGMvHH",
+        "repo": ""
+      },
+      {
+        "id": "p2",
+        "title": "WebGIS Contoh",
+        "category": "Peta",
+        "year": "20XX",
+        "summary": "CONTOH: peta interaktif untuk menampilkan data spasial.",
+        "description": "CONTOH: ganti deskripsi ini dengan penjelasan proyek peta atau WebGIS yang pernah kamu buat, masalah yang dipecahkan, dan hasilnya.",
+        "stack": [
+          "Leaflet",
+          "GeoJSON",
+          "JavaScript"
+        ],
+        "link": "",
         "repo": ""
       },
       {
