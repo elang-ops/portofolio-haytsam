@@ -75,16 +75,30 @@ window.PORTFOLIO_CONTENT = {
       },
       {
         "id": "p3",
-        "title": "Aplikasi Cicil Tugas",
-        "category": "Aplikasi",
+        "title": "Web Cicil Tugas",
+        "category": "Web Prototipe",
         "year": "2026",
-        "summary": "Sebuah aplikasi yang dapat membantu mahasiswa dalam mencicil tugas dengan terjadwal",
-        "description": "Aplikasi  yang dibangun dengan index.html worker.js wrongler.TOML",
+        "summary": "Sebuah Prototipe yang dapat membantu mahasiswa dalam mencicil tugas dengan terjadwal",
+        "description": "Prototipe yang dibangun dengan index.html worker.js wrongler.TOML",
         "stack": [
           "JavaScript",
           "API"
         ],
         "link": "https://elang-ops.github.io/cicil-tugas/",
+        "repo": ""
+      },
+      {
+        "id": "p1795753091056",
+        "title": "Web Kantong Mahasiswa",
+        "category": "Website Management Finansial",
+        "year": "2026",
+        "summary": "Web yang dapat membantu mahasiswa dalam memgatur keuangan ",
+        "description": "Web yang terintegrasi dengan Claude AI",
+        "stack": [
+          "Claude AI",
+          "Indeks.html"
+        ],
+        "link": "https://claude.ai/artifact/MGBxPAccsGz7NYeJEGMvHH",
         "repo": ""
       },
       {
